@@ -10,6 +10,8 @@ public interface ProductService {
 
     Product getById(long id);
 
+    List<Product> getByAnyText(String anytext);
+
     List<Product> getAll();
 
     Product update(long id, Product product);
